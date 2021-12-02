@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Extensions/1.0.0": {
+        "dependencies": {
+          "Lesson2_Core": "1.0.0"
+        },
+        "runtime": {
+          "Extensions.dll": {}
+        }
+      },
+      "Lesson2_Core/1.0.0": {
+        "runtime": {
+          "Lesson2_Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Extensions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lesson2_Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
