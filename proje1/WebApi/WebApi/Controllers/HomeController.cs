@@ -18,6 +18,7 @@ namespace WebApi.Controllers
             _logger = logger;
         }
 
+        // Eğer girilen para birimi doğruysa (kontrole göre) bu sayfaya yönlendirilir.
         public string SuccessPage()
         {
             return "Process is succeeded!";
